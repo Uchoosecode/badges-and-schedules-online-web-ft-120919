@@ -33,7 +33,7 @@ end
   
   
 def printer(attendees)
-puts batch_badge_creator(attendees).[].chomp
+puts batch_badge_creator(attendees).line.chomp
 # puts assign_rooms(attendees)
 end
 
