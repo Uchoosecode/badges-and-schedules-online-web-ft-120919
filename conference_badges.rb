@@ -35,7 +35,7 @@ end
 def printer(attendees)
 prints = []
 
-batch_badge_creator(attendees).map do |attendee|
+batch_badge_creator.map do |attendee|
   
   prints << attendee.[].chomp
 end
