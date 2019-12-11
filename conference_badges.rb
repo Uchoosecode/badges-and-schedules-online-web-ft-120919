@@ -33,8 +33,8 @@ end
   
   
 def printer(attendees)
- batch_badge_creator(attendees).each do | batch_badge_creator(attendees)|
-   puts  batch_badge_creator(attendees)
+ batch_badge_creator.each do |attendee|
+   puts  batch_badge_creator(attendee)
  end
 
 end
