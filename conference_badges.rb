@@ -35,7 +35,7 @@ end
 def printer(attendees)
  
  attendees.map do |attendee|
-   puts batch = batch_badge_creator(attendee)
+   puts 
    
  end
 
