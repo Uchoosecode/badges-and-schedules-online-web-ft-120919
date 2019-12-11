@@ -33,10 +33,11 @@ end
   
   
 def printer(attendees)
-
-attendees.map do |attendee|
+  i = 0 
   
+attendees.map do |attendee|
   batch_badge_creator(attendee)
+i += 1   
 end
 
 
