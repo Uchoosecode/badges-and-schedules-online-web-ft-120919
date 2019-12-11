@@ -39,7 +39,6 @@ batch_badge_creator(attendees).each_with_index { |item, index|
   hash[item] = index
 }
 puts hash
- end
 
 end
 
