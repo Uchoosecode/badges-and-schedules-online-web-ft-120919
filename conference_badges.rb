@@ -39,6 +39,7 @@ def printer(attendees)
   puts package << batch_badge_creator(attendees)
 end
  
+return package
 
 end
 
