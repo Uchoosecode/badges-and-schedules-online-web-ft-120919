@@ -34,7 +34,7 @@ end
   
 def printer(attendees)
  
- batch_badge_creator(attendees)
+ batch_badge_creator(attendees).gets.chomp
 
 end
 
