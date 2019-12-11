@@ -41,7 +41,7 @@ batch_badge_creator(attendees).each { |item|
 }
 i += 1 
 
-puts speaker[i]
+puts speaker[i]line.chomp
 
 end
 
