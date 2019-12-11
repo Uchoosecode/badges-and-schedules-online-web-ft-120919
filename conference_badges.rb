@@ -37,7 +37,7 @@ prints = []
 
 batch_badge_creator.map do |attendee|
   
-  prints << attendee
+  prints << attendee(attendees)
 end
 puts prints
 return prints
