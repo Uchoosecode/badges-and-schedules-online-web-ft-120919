@@ -36,7 +36,7 @@ def printer(attendees)
 
 attendees.each do |attendee|
   
-  puts "Hello, my name is #{attendee}"
+  puts "Hello, my name is #{attendee}."
 end
 end
 
