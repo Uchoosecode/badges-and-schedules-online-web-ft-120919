@@ -34,14 +34,14 @@ end
   
 def printer(attendees)
 prints = []
+i = 0 
 
-batch_badge_creator.map do |attendee|
-  
-  prints << attendee
+while i < attendees.length
+batch_badge_creator(attendees[i])
+i += 1 
+prints << batch_badge_creator(attendees[i])
 end
-puts prints(attendees)
-return prints
-# puts assign_rooms(attendees)
+
 end
 
 
