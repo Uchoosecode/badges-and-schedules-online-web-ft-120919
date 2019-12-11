@@ -34,13 +34,13 @@ end
   
 def printer(attendees)
  
-hash = Hash.new
+speaker = []
 batch_badge_creator(attendees).each_with_index { |item|
-  hash[item]
+  speaker << item
 }
 
 
-puts hash
+puts speaker
 
 end
 
