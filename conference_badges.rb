@@ -35,9 +35,11 @@ end
 def printer(attendees)
  
 hash = Hash.new
-batch_badge_creator(attendees).each_with_index { |item, index|
-  hash[item] = index
+batch_badge_creator(attendees).each_with_index { |item|
+  hash[item]
 }
+
+
 puts hash
 
 end
