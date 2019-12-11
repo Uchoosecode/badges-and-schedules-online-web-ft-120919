@@ -35,7 +35,7 @@ end
 def printer(attendees)
  
 speaker = []
-batch_badge_creator(attendees).each_with_index { |item|
+batch_badge_creator(attendees).each { |item|
   speaker << item
 }
 
