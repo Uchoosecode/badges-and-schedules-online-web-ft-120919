@@ -40,8 +40,9 @@ while i < attendees.length
 batch_badge_creator(attendees[i])
 i += 1 
 prints << batch_badge_creator(attendees[i])
+puts prints
 end
-
+return prints
 end
 
 
