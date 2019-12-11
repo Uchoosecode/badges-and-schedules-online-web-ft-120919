@@ -33,7 +33,14 @@ end
   
   
 def printer(attendees)
-puts batch_badge_creator(attendees)
+prints = []
+
+batch_badge_creator(attendees).each do |attendee|
+  
+  prints << attendee
+end
+puts prints
+return prints
 # puts assign_rooms(attendees)
 end
 
