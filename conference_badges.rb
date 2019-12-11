@@ -33,15 +33,8 @@ end
   
   
 def printer(attendees)
-  i = 0 
-  
-speaker = []
-attendees.each { |item|
-  speaker << batch_badge_creator(item)
-}
-i += 1 
-
-puts speaker
+puts batch_badge_creator(attendees)
+puts assign_rooms(attendees)
 end
 
 
