@@ -33,13 +33,9 @@ end
   
   
 def printer(attendees)
- package = []
- attendees.each do |attendees|
- 
-  puts package << batch_badge_creator(attendees)
-end
- 
-return package
+
+
+
 
 end
 
