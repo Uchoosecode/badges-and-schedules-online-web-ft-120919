@@ -33,16 +33,11 @@ end
   
   
 def printer(attendees)
-prints = []
-i = 0 
 
-while i < attendees.length
-batch_badge_creator(attendees[i])
-i += 1 
-prints << batch_badge_creator(attendees)
-puts prints
+attendees.each do |attendee|
+  
+  puts "Hi, my name is #{attendee}"
 end
-return prints
 end
 
 
