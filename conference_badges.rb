@@ -37,11 +37,11 @@ def printer(attendees)
   
 speaker = []
 attendees.each { |item|
-  speaker << item
+  speaker << batch_badge_creator(item)
 }
 i += 1 
 
-puts speaker[i]
+puts speaker
 end
 
 
