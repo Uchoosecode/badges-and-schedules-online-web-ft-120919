@@ -40,7 +40,7 @@ puts batch_badge_creator(attendees)[i]
 puts assign_rooms(attendees)
 
 i += 1 
-
+end
 
 end
 
