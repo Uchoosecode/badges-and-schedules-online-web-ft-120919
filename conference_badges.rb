@@ -34,10 +34,7 @@ end
   
 def printer(attendees)
 
-attendees.map do |attendee|
-  
-  puts "#{assign_rooms(attendee)}"
-end
+puts assign_rooms(attendees)
 end
 
 
